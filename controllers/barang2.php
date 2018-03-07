@@ -186,5 +186,9 @@ class Barang2 extends CI_Controller {
 		$this->session->set_flashdata("info","<div class=\"alert alert-danger\" id=\"alert\"><i calss=\"glyphicon glyphicon-ok\"></i><a href=\"#\" class=\"close\" data-dismiss=\"alert\" aria-label=\"close\">&times;</a> Data Berhasil Dihapus</div>");
 		redirect('barang2');
 	}
+	
+	public function test()
+	{
+	}
 
 }
